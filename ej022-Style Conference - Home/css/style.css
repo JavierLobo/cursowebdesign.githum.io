@@ -1,0 +1,180 @@
+* {
+	border: 0;
+	margin: 0em auto;
+	padding: 0em;
+}
+
+*, ::before, ::after {
+	box-sizing: border-box; /* si da problemas raros, quitar esta linea */
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+h1, h3, h4, h5, p {
+	margin-bottom: 22px;
+}
+
+h1, h2, h3, h4 {
+	color: #648880;
+}
+
+h2 {
+	font-size: 36px;
+	line-height: 44px;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+h5 {
+	color: #a9b2b9;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+p {
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	background: white;
+	color: #293f50;
+}
+
+body {
+	background: #293f50;
+	color: #888;
+	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul {
+	text-align: right;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	display: block;
+	list-style: none;
+}
+
+ul li {
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: top;
+}
+
+.logo {
+	border-top: 4px solid #648880;
+	float: left;
+	font-size: 48px;
+	font-weight: 100;
+	letter-spacing: .5px;
+	line-height: 44px;
+	padding: 40px 0 22px;
+	text-transform: uppercase;
+}
+
+.fecha {
+	margin: 66px 0 22px;
+	text-align: right;
+}
+
+.menu {
+	float: right;
+	width: 450px;
+}
+
+.cabecera {
+	height: 200px;
+}
+
+.hero {
+	color: #fff;	
+	line-height: 44px;
+	padding: 22px 80px 66px;
+	text-align: center;
+}
+
+.hero p {
+	font-size: 24px;
+	font-weight: 100;
+}
+
+.cuerpo {
+	background: #fff;
+	padding: 66px 0 44px;
+	min-width: 960px;	
+	display: block;
+	vertical-align: baseline;
+}
+
+.grid {
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 960px;
+}
+
+.caja {
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.footer {
+	font-size: 14px;
+	padding-bottom: 44px;
+	padding-top: 44px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.footer small {
+	float: left;
+	font-weight: 400;
+}
+
+/* Botones*/
+
+.btn-alt {
+	border: 1px solid #fff;
+	padding: 10px 30px;
+}
+
+.btn {
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 400;
+	letter-spacing: .5px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+/* */
+.ancho {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.smallmenu {
+	font-size: 10px;
+	font-weight: 200;
+	color: red; /* #888; */
+}
+
+.grupo {
+	clear: both;
+}

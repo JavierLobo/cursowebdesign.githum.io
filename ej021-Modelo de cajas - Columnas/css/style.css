@@ -1,0 +1,31 @@
+.colum {
+	display: block;
+	margin: 0em auto;
+	height: 600px;
+	border: .5px solid black;
+}
+
+.caja {
+	height: 589px;
+	margin-left: 1%;
+	margin-top: 1px;
+	margin-bottom: 0px;
+}
+
+.izquierda {
+	background-color: #ff9933;
+	width: 25%;
+	float: left;
+}
+
+.centro {
+	background-color: #009900;
+	width: 46%;
+	float: left;
+}
+
+.derecha {
+	float: left;
+	background-color: #3366ff;
+	width: 25% !important;
+}

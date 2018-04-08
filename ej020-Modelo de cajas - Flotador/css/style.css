@@ -1,0 +1,48 @@
+* {
+	margin: 0em auto;
+	/* border: 0;
+	padding: 0em; */
+}
+
+.caja {
+	height: 165px;
+}
+
+.uno {
+	background-color: #ff9933;
+}
+
+.dos {
+	background-color: #009900;
+	width: 30%;
+	float: left;
+}
+
+.tres {
+	background-color: #3366ff;
+	width: 40%;
+	float: left;
+}
+
+.cuatro {
+	background-color: #660066;
+	width: 30%;
+	float: left;
+	/* clear: both; Esta instrucción hace que el bloque tome presencia.*/
+}
+
+.cinco {
+	background-color: #ff6699;
+	clear: both;
+	padding: 1em;
+	width: 80%;
+}
+
+.seis {
+	background-color: #aa6611;
+}
+
+.columna {
+	width: 25%;
+	float: left;
+}

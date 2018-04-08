@@ -1,0 +1,83 @@
+* {
+	border: 0;
+	margin: 0em auto;
+	padding: 0em;
+}
+
+#cuerpo, body, header, nav, section, article aside, footer {
+	padding: .5em;
+}
+
+body {
+	width:650px;			
+}
+
+body header {
+	/* background: green; */
+}
+
+body header nav {
+	/* background: cyan; */
+}
+
+ul li {
+	width: 200px;
+	margin: 10px;
+	list-style: none;
+	display: inline;
+}
+
+ul li a {
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+}
+
+#cuerpo {
+	/* background: yellow; */
+}
+
+#cuerpo section {
+	/* background: red; */
+}
+
+#cuerpo article {
+	/* background: orange; */
+}
+
+#cuerpo aside {
+	/* background: brown; */
+}
+
+#cuerpo footer {
+	/* background: white; */
+}
+
+h1, h2, h3, h4, h5 {
+	color: black;
+	font-family: Verdana;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+p, #mas { 
+	color: black; 
+	font-family: Verdana;
+	text-align: justify;
+	line-height: 1.5em; 
+	margin-bottom: 1.5em;
+	text-indent: 2em;
+}
+
+#mas {
+	text-indent: 0;
+
+}

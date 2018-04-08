@@ -1,0 +1,32 @@
+
+
+.uno {
+	background: red;
+	height: 200px;
+}
+
+.dos {
+	background: yellow;
+	/* height: 200px; */
+	height: auto;
+	
+}
+
+.tres {
+	background: green;
+	height: 200px;
+	overflow: hidden; /* scroll; */
+}
+
+.cuatro {
+	background: orange;
+	height: 200px;	
+}
+
+.cinco {
+	background: black;
+	height: 500px;
+	width: 960px;
+	border: 1px solid blue;
+	margin: 0 auto;
+}

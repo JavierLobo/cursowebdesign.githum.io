@@ -1,0 +1,74 @@
+* {
+	border: 0;
+	margin: 0em auto;
+	padding: 0em;
+}
+
+
+h1, h2, h3, h4, h5 {
+	border: 30px solid blue;
+}
+
+h1 {
+	border-color: blue;
+	border-style: solid;
+	border-width: 10px 20px 30px 40px;
+	padding: 30px 10px;
+}
+
+p {
+	color: gray; 
+	font-size: 1.8em;
+	text-align: justify;
+	line-height: 1.5em; 
+	margin-bottom: 1.5em;
+}
+
+.contenedor {
+	margin: 1em;
+	padding: 1em;
+	background: #9f9f9f;
+
+}
+
+.button {
+	display: inline-block;
+	width: 7em;
+	padding: .25em;
+	margin: .25em auto;
+	border: 0.15em solid black;
+	border-radius: 15em;
+	background-color: gray;
+	box-shadow: 0.2em 0.2em #888888;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 1em;
+	box-sizing: border-box; /* Esto encoge el contenido de la caja */
+}
+
+.Success {
+	background-color: green;
+	border: 0.15em solid lightgreen;
+}
+
+.Aceptar {
+	background-color: blue;
+	border: 0.15em solid lightblue;
+}
+
+.Peligro {
+	background-color: red;
+	border: 0.15em solid orange;
+}
+
+.Warning {
+	background-color: yellow;
+	color: grey;
+	border: 0.15em solid lightyellow;
+}
+
+.Info {
+	background-color: grey;
+	border: 0.15em solid lightgray;
+}

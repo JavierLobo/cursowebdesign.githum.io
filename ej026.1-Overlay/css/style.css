@@ -1,0 +1,53 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+p {
+	font-size: 45px;
+	color: red;
+}
+
+html, body {
+	height: 100%;
+}
+
+div {
+	border: 3px solid red;
+	height: auto;
+}
+
+div img {
+	width: 75%;
+	transition: all 2s ease-out;
+}
+
+.contenedor {
+	top: 100px;
+	position: relative;
+	width: 450px;
+	padding: .5em;
+	text-align: center;
+
+}
+
+.contenedor:hover img {
+	position: relative;
+	width: 100%;
+	opacity: .5;
+	transition: 1s ease;
+}
+
+.contenedor:hover .mensaje{
+	opacity: 1;
+	transition: 1s ease;
+}
+
+.mensaje {
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	opacity: 0;
+	/* z-index: 0; */	
+	transition: 1s ease;
+}

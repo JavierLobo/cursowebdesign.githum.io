@@ -1,0 +1,72 @@
+/* * {
+	border: 0;
+	margin: 0em auto;
+	padding: 0em;
+	font-family: courier;
+	font-size: 24px;
+	color: black;
+}*/
+
+h1, h2, h3, h4, h5 {
+	color: green;
+	font-family: Bell MT;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+p {
+	color: gray; 
+	font-size: .8em;
+	font-family: Bookman Old Style;
+	text-align: justify;
+	line-height: 1.5em; 
+	margin-bottom: 1.5em;
+}
+
+p span {
+	text-decoration: underline;
+}
+
+span {
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* .primero {
+	color: blue;
+}
+
+#segundo {
+	color: red;
+}
+
+#tercero {
+    color: yellow;
+} */
+
+.clase-1 {
+	color: red;
+}
+
+.clase-2 {
+	font-size: 40px;
+	color: green;
+}
+
+.clase-3 {
+	border: 2px solid blue;
+	width: 100%;
+}

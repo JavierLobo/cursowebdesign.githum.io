@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="@javixu_lobo">
+	<meta name="description" content="Curso de HTML.">
+	<title>Plantilla base para paginas webes</title>
+	
+	<style type="text/css">
+  		* {
+  			border: 0;
+  			margin: 0em auto;
+  			padding: 0em;
+  		}
+		
+		body {
+			border: 1px solid black;
+			padding: .5em;
+			width:650px;			
+		}
+
+		body header {
+			border: 1px solid black;
+			padding: .5em;
+			background: green;
+		}
+
+		body header nav {
+			border: 1px solid black;
+			padding: .5em;
+			background: cyan;
+		}
+
+		#cuerpo {
+			border: 1px solid black;
+			padding: .5em;
+			background: yellow;
+		}
+
+		#cuerpo section {
+			border: 1px solid black;
+			padding: .5em;
+			background: red;
+		}
+
+		#cuerpo article {
+			border: 1px solid black;
+			padding: .5em;
+			background: orange;
+		}
+
+		#cuerpo aside {
+			border: 1px solid black;
+			padding: .5em;
+			background: brown;
+		}
+
+		#cuerpo footer {
+			border: 1px solid black;
+			padding: .5em;
+			background: white;
+		}
+
+		h1, h2, h3, h4, h5 {
+			color: black;
+			font-family: Verdana;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 1.5em;
+		}
+
+		h2 {
+			font-size: 1em;
+		}
+
+  		p { 
+  			color: black; 
+  			font-family: Verdana;
+  			text-align: justify;
+  			text-indent: 2em;
+  			line-height: 1.5em;
+  		}
+	</style>
+
+</head>
+<body>
+	<header>
+		<h1>Esto es un header</h1>
+		<p>Aenean faucibus, erat id venenatis accumsan, metus ante rhoncus metus, sit amet bibendum magna eros eget dui. Vivamus mollis felis laoreet neque dictum, eget fringilla neque dignissim. Nullam ultricies ligula vel nisl vestibulum auctor sit amet ut dolor. Vivamus egestas nulla sit amet convallis mattis. Praesent augue diam, congue eu faucibus ut, dignissim a sapien. Sed in nibh pretium, dignissim lectus ac, elementum justo. Curabitur eu pellentesque ligula, et malesuada ex. Fusce non dui nisi. </p>
+		<nav>
+			<h2>Esto es un menú</h2>
+			<p>Sed maximus feugiat ullamcorper. In posuere urna porttitor sapien molestie aliquet. Proin ut turpis nec magna ultricies dignissim nec a nunc. Donec faucibus ullamcorper nisl, at lacinia purus blandit non. In bibendum ex porta libero iaculis posuere. In vitae risus ac felis cursus iaculis quis maximus nulla. Vestibulum elementum justo eget eros sollicitudin blandit. Curabitur ut sodales lectus, id commodo sem.</p>
+		</nav>
+	</header>
+	
+	<div id="cuerpo">
+		<section>
+			<h2>Esto es una sección</h2>
+			<p>Duis blandit urna eu augue blandit bibendum. Aenean elementum imperdiet mauris in gravida. Maecenas dapibus placerat luctus. Morbi luctus tincidunt elit, id placerat dolor condimentum eget. Praesent et suscipit mi. Curabitur nec ullamcorper tortor.</p>
+			<article>
+				<h2>Esto es un artículo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare, eros ut tempus laoreet, dolor augue vulputate purus, a euismod augue libero sit amet urna. Nulla pulvinar leo et eros scelerisque rhoncus. Sed a ex nec arcu dapibus interdum id vestibulum ipsum. Proin volutpat at metus eu scelerisque. Duis blandit urna eu augue blandit bibendum. Aenean elementum imperdiet mauris in gravida. Maecenas dapibus placerat luctus. Morbi luctus tincidunt elit, id placerat dolor condimentum eget. Praesent et suscipit mi. Curabitur nec ullamcorper tortor. Vivamus maximus, neque at aliquet placerat, leo elit sodales lacus, sed hendrerit felis quam a leo. In vitae gravida magna, non faucibus augue. Duis nec posuere dui. Nam ultrices semper mauris sit amet molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin dui felis, consequat id vestibulum ac, interdum sed turpis.</p>
+			</article>
+			<aside>
+				<h2>Esto es un aside</h2>
+				<p>Vivamus maximus, neque at aliquet placerat, leo elit sodales lacus, sed hendrerit felis quam a leo. In vitae gravida magna, non faucibus augue. Duis nec posuere dui. Nam ultrices semper mauris sit amet molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin dui felis, consequat id vestibulum ac, interdum sed turpis.</p>
+			</aside>
+		</section> <!-- Fin de la etiqueta principal "section" del cuerpo -->
+
+		<footer>
+			<h2>Esto es el pié de la página</h2>
+			<p>Fusce et tincidunt est. Duis ac pretium tellus. Ut elit sapien, tincidunt ac dui et, pretium aliquet sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et sollicitudin ante. Maecenas condimentum venenatis augue, quis euismod nunc facilisis et. Cras augue eros, lobortis eu nisl in, varius congue nisl. </p>
+		</footer>
+	</div> <!-- Fin del Cuerpo -->
+</body>
+</html>
