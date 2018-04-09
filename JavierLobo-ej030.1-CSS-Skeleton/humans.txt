@@ -1,0 +1,25 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    <name>  --..--  <role>  --..--  <social.net>  
+    Javier Lobo     Programador     @javixu_lobo  https://www.linkedin.com/in/fcojavierlobo/	
+    								
+# THANKS
+    <name>  --..--  <social.net>
+
+# TECHNOLOGY COLOPHON
+    Standards: HTML5, CSS3,..
+    Components: Normalize.css, Skeleton 2.0.4
+    Software: Sublime.
+
+# SITE
+    <Version>   <Create> 
+    <vX.XX.XXX> <YYYY/MM/DD> 
+    v0.00.01    2018/03/06
+
+    <Version>   <Last update> 
+    v0.00.01    2018/03/06
+
+
+/* Nota: Mira http://humanstxt.org/ES */

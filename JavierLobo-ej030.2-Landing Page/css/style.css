@@ -1,0 +1,71 @@
+/* Mobile first queries */
+.section {
+	padding: 8rem 0 7rem;
+	text-align: center;
+}
+
+.section-heading, 
+.section-description {
+	margin-bottom: 1.2rem;
+}
+
+.showcase-img {
+	position: relative;
+	max-width: 80%;
+	margin: 3rem auto -12rem;
+}
+
+.section-a {
+	background-image: url('../img/section-bg.jpg');
+	box-sizing: cover;
+	color:#fff;
+	padding-bottom: 5rem;
+}
+
+.section-a .fa{
+	font-size: 40px;
+	margin-bottom: 5rem;
+	color: #beebff;
+}
+
+.section-a h5 {
+	margin-bottom: .3rem;
+}
+
+.section-c {
+	background-image: url('../img/section-bg.jpg');
+	box-sizing: cover;
+	color:#fff;
+}
+
+.section-c, .section-description{
+	margin-bottom: 4rem;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+	
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	.showcase-heading {
+		font-size: 3.0rem;
+		padding-top: 11rem;
+	}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+	
+}
